@@ -16,14 +16,20 @@ public class IfSwitch {
 		
 		String pref = "京都";
 		
-		if(pref == "北海") {
+		switch(pref) {
+		
+		case "北海":
 			System.out.println("北海道");
-		} else if(pref == "東京") {
+			break;
+		case "東京":
 			System.out.println("東京都");
-		} else if(pref == "京都") {
+			break;
+		case "京都":	
 			System.out.println("京都府");
-		} else {
+			break;
+		default:
 			System.out.println("当てはまりません。");
+			break;
 		}
 
 	}
