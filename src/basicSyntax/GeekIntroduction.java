@@ -29,7 +29,7 @@ public class GeekIntroduction {
 
 		for (int num3 = num1; num3 <= num2; num3++) {
 			if (num3 % 15 == 0) {
-				System.out.println(num3 + "は15の倍数です。");
+				System.out.println(num3 + "は3の倍数かつ5の倍数です。");
 				continue;
 			} else if (num3 % 5 == 0) {
 				System.out.println(num3 + "は5の倍数です。");
