@@ -17,7 +17,7 @@ public class IfSwitch {
 		String pref = "京都";
 
 		switch (pref) {
-
+		
 		case "北海":
 			System.out.println("北海道");
 			break;
