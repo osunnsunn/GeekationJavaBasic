@@ -23,17 +23,16 @@ public class ForWhile {
 		String[] programs = { "Ruby", "Golang", "Java", "Python", "Typescript", "HTML", "Javascript" };
 
 		for (String prog : programs) {
-			switch (prog) {
-			    case "Java":
-				    System.out.println("現在学習中の言語はJavaです。");
-				    break;
-				case "HTML":
-				    System.out.println("HTMLはプログラミング言語ではありません。");
-				    break;
-			    default:
-				    System.out.println(prog);
-				    break;
+			if (prog.equals("Java")) {
+				System.out.println("現在学習中の言語はJavaです。");
+				continue;
 			}
+			if (prog.equals("HTML")) {
+				System.out.println("HTMLはプログラミング言語ではありません。");
+				break;
+			}
+			System.out.println(prog);
+
 		}
 	}
 
