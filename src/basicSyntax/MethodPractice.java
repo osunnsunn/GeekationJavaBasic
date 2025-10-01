@@ -5,7 +5,10 @@ public class MethodPractice {
 	public static void main(String[] args) {
 		int a = 6;
 		int b = 2;
-		result(a, b);
+		result(addition(a, b));
+		result(subtraction(a, b));
+		result(multiplication(a, b));
+		result(division(a, b));
 	}
 
 	public static int addition(int a, int b) {
@@ -24,10 +27,7 @@ public class MethodPractice {
 		return a / b;
 	}
 
-	public static void result(int a, int b) {
-		System.out.println("計算結果は" + addition(a, b) + "です。");
-		System.out.println("計算結果は" + subtraction(a, b) + "です。");
-		System.out.println("計算結果は" + multiplication(a, b) + "です。");
-		System.out.println("計算結果は" + division(a, b) + "です。");
+	public static void result(int answer) {
+		System.out.println("計算結果は" + answer + "です。");
 	}
 }
