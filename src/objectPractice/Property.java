@@ -17,10 +17,10 @@ public class Property {
 	
 	public void information() {
 		
-		System.out.println("物件名："+property);
-		System.out.println("物件所有者名："+name);
-		System.out.println("物件種別："+type);
-		System.out.println("物件価格："+money+"円");
+		System.out.println("物件名：" + property);
+		System.out.println("物件所有者名：" + name);
+		System.out.println("物件種別：" + type);
+		System.out.println("物件価格：" + money + "円");
 	}
 	
 	public static void printSeparator() {
