@@ -7,7 +7,6 @@ public class Property {
 	private String type;
 	private int money;
 	
-	
 	Property(String property, String name, String type, int money){
 		this.property = property;
 		this.name = name;
@@ -16,7 +15,6 @@ public class Property {
 	}
 	
 	public void information() {
-		
 		System.out.println("物件名：" + property);
 		System.out.println("物件所有者名：" + name);
 		System.out.println("物件種別：" + type);
@@ -57,5 +55,4 @@ public class Property {
 	public void setMoney(int money) {
 		this.money = money;
 	}
-	
 }

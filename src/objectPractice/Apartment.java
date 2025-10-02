@@ -23,5 +23,4 @@ public class Apartment extends Property {
 	public void setFloor(String floor) {
 		this.floor = floor;
 	}
-
 }

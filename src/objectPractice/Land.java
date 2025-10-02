@@ -4,7 +4,6 @@ public class Land extends Property{
 	
 	private double space;
 	
-	
 	Land(String property, String name, String type, int money, double space){
 		super(property, name, type, money);
 		this.space = space;
@@ -15,7 +14,6 @@ public class Land extends Property{
 		super.information();
 		System.out.println("広さ："+space+"㎡");
 		Property.printSeparator();
-		
 	}
 	
 	public double getSpace() {
@@ -25,5 +23,4 @@ public class Land extends Property{
 	public void setSpace(double space) {
 		this.space = space;
 	}
-
 }
